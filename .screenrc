@@ -13,3 +13,6 @@ altscreen on
 hardstatus off
 hardstatus alwayslastline
 hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %m-%d %{W} %c %{g}]'
+
+# Use X scrolling mechanism
+termcapinfo xterm*|rxvt*|kterm*|Eterm* ti@:te@
