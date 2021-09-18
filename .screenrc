@@ -16,3 +16,7 @@ hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u
 
 # Use X scrolling mechanism
 termcapinfo xterm*|rxvt*|kterm*|Eterm* ti@:te@
+
+screen -t LEFT
+screen -t RIGHT
+screen -t DOWN
