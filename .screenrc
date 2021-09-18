@@ -1,0 +1,8 @@
+# default shell
+shell /bin/bash
+
+# startup message off
+startup_message off
+
+# set altscreen
+altscreen on
